@@ -1,0 +1,47 @@
+1: Chrome Developer Tools - Mobile
+
+2: Page Speed Insights - Mobile
+
+3: WebPage Test - Mobile
+
+4: Android Studio Profiler
+
+To set up for Android, you need to first install Android Studio on your laptop, then get a test APK file.
+
+The most important thing is, on your phone, to enable the developer options. 
+It's going to look something like this (and you need to look up for each specific device how to get it turned on).
+
+It's usually something like you go to settings and then you click the version seven times or something like that. Just look it up on Google. For each device, it's going to be a little bit different.
+
+Then once the developer options are enabled, you can turn on USB debugging for the media transfer protocol and then connect your device to the laptop.
+
+So, I have done all of that and let's see what happens next.
+
+Here, I'm ready to open Android Studio. I'm going to Profile or Debug the APK, so, I click that. I select my test APK (TestApp.apk).
+
+We'll just Create a New Folder.
+
+The first thing that Android Profiler is going to do is look at the size of the files on your APK.
+
+This is very important for download times and Google actually has rules about how big APKs can be and also how much space you're taking up on the phone itself.
+
+Now that everything is here, I just push the Profiler button and I select my device, which is connected. Now, it's going to install the APK on my device.
+
+The installation is finished and it's starting things up on my phone. Now, we can make this a little bigger and see what's going on. You can see that we have CPU, memory, network, and energy. That's how much battery it's using.
+
+Now, I'm going to go ahead and play a little bit. If you look at these dots here, these dots represent every time I touch the device.
+
+
+Every time something happens, you can see this red dot here.
+
+So, that's the basic idea. You can watch this for certain spikes when things happen, if it's using too much CPU, too much energy, all that sort of thing, all available here.
+
+5: Xcode Instruments
+
+Apple provides similar tooling for iOS devices, except it's a little more complicated, of course, because it's iOS.
+
+6: Device Statistics
+
+Finally, you can actually just check your device while you're using application to monitor the resources that it's using.
+
+The battery usage, memory, mobile data usage, all of these things are available on either an Android or an iOS phone and they can be very useful for determining how an application is behaving.
