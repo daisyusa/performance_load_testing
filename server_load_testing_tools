@@ -1,0 +1,31 @@
+# GitHub repo
+
+https://github.com/ambertests/tau_perf
+
+1: Apache JMeter
+
+2: Gatling
+
+Gatling is a Scala-based tool, and Scala is a scripting language that runs anywhere. It runs in the JVM so it's not tied down to Windows or Mac or whatever. It can run anywhere. It's first release was in 2012 although I would say it's really in the last two or three years that it's gotten really popular.
+
+And it has a pure scripting interface. So, there's no UI where you can pick things from a menu and drag them into position. You just open up the IDE of your choice and write a Scala script and that's how you do Gatling.
+
+Gatling also supports record and playback, which might be useful just to get an initial start on your script.
+
+And because it has a more modern architecture than JMeter, it can actually support a higher load. So, every instance of Gatling can produce more load than a single instance of JMeter.
+
+Gatling also has an enterprise version if you want the enterprise support. And for more information, just go to gatling.io.
+
+I'm using Visual Studio code as my IDE with the Scala plugin. And we have these objects that are essentially equivalent to the thread groups that we saw in JMeter. So, this is my browsing object where I get the bookings and then I get them by name, et cetera.
+
+And this is the booking object that's creating the reservation. I personally find this format to be easier to read right off the bat than looking at a JMeter script. And here's where I'm setting up my variables.
+
+And then the objects that are going to actually do the job itself. So, I have a hundred users that are just looking and 30 users that are making bookings.
+
+Once you have a script, you need to run it in the command line. You can't obviously run it here.
+
+I have Gatling running in a terminal window and you can see my restful booker simulation is there and I can just select it to run (Select run).
+
+Now it's starting up. And now it's running, and it'll update every 10, 15 seconds just so that I know that it's still going. So, our script is almost done.
+
+And we get a basic idea of what happened here. But then what's really nice about Gatling is that it gives us this HTML report. So, let's take a look at that. We just copy that and stick it into a browser.
