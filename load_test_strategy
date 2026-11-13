@@ -1,0 +1,34 @@
+1: Understand the System
+
+2: What to Look For
+
+3: What kinds of tests are there?
+
+4: Calculating Load
+
+5: Cloud Considerations
+
+6: Serverless Considerations
+
+7: Running Tests in Production
+
+8: Interpreting Results
+
+- JMeter Report – Coordinated Omission
+
+# Wrapping It Up
+
+So that is a quick look at some of the factors involved in crafting a strategy and understanding the results of your test. Performance and load testing is a huge area, 
+with a lot of details, and this is just the very tip of the iceberg when it comes to the information that's available about performance and load testing.
+
+I want to leave you with just a few simple things to remember.
+
+First of all, for both the client and server, it's really important to test performance early and often. Get on top of any problems before it's too late to fix them.
+
+On the client's side, making sure that your client is adaptable to varying network and server conditions is going to go a long way towards ensuring that your customers 
+and the people on your website have a smooth experience.
+
+On your services, the key is to find the performance limits and either expand them or make sure you can work within them.
+
+Once you do that, you can be confident that your application will be ready for the masses.
+
